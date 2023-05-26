@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height:100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    position:relative;
+    max-width: 1800px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+body{
+ position: relative;
+height:100%;
+width:100%;
+margin:0 auto;
+background-image: url(image8.jpg);
+background-size: cover;
+object-fit: cover;
+background-repeat: no-repeat;
+}
+
+.nav-items{
+    margin-top: 50px;
+    position: absolute;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: rgba(16, 10, 10, 0.025);
+    display: flex;
+    gap:4rem;
+    padding: 0 8em;
+  }
+  .nav-items div{
+    cursor:pointer;
+     margin: 10px;
+			position: relative;
+   }
+
+.nav-items div a{
+    text-decoration: none;
+    color:black;
+    /* transition: all 5s ease; */
+}
+
+.nav-items div a:hover{
+    color: rgb(213, 25, 19);
+}
+  .show{
+        position: absolute;
+        top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkgrey;
+        opacity: 0.8;
+        color: black;
+        left:350px;
+        width:750px;
+        border: 1px solid black;
+      }
+      .issue{
+        font-size: 30px;
+        font-weight: 500px;
+        color:#f44336;
+      }
+      .show table{
+        border:1px solid black;
+        margin-top: 20px;
+        padding: 4px;
+        text-align: center;
+      }
+      .show th{
+        border:1px solid black;
+        margin-top: 20px;
+        padding: 4px;
+        text-align: center;
+      }
+      .show td{
+        border:1px solid black;
+        margin-top: 20px;
+        padding: 4px;
+        text-align: center;
+      }
+      .gap{
+        margin-top: 30px;
+      }  

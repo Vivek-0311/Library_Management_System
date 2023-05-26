@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="warpper">
+   <div class="container">
+    <div class="nav-items">
+        <div><a href="login.html">Login</a></div>
+        <div><a href="signup.html">Signup</a></div>
+        <div><a href="forgot.html">ForgetPassword</a></div>
+    </div>
+    <div class="form-maker">
+        <div class="label">Signup</div>
+       <form action="signup"  class="signup-form sign" name="form"  onsubmit="return demo2()">
+       
+               <div class="font"> Enter Roll Number</div>
+                <input type="text" placeholder="Enter Roll No." name="eroll" >
+                <div id="roll-error">Please fill up your Roll Number</div>
+                <div class="font"> Enter Name</div>
+                <input type="text" placeholder="Enter Name" name="ename" >
+                <div id="ename-error">Please fill up your Name</div>
+                <div class="font">Enter Gender</div>
+                <select id="gender" name="gender" >
+                    <option>Men</option>
+                    <option>Women</option>
+                    <option>Other</option>
+                </select>
+                <div id="gender-error">Please fill up your Gender</div>
+                
+                <div class="font">Enter Email</div>
+                <input type="text" placeholder="Enter Email" name="email" >
+                <div id="email-error">Please fill up your Email</div>
+                
+                <div class="font">Enter Number</div>
+                <input type="text" placeholder="Enter Number" name="num" >
+                <div id="num-error">Please fill up your Number</div>
+                
+                <div class="font">Enter Password</div>
+                <input type="text" placeholder="Enter Password" name="pass" >
+                <div id="epass-error">Please fill up your Password</div>
+                
+              
+                  <input type="submit" class="sub" value="Save">
+
+    </form>
+</div>
+   </div>
+      
+    </div>
+    <script src="valid2.js"></script>
+</body>
+</html>
